@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>The Reunion</title>
+  <meta name="color-scheme" content="dark">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- 🚫 Screen message (hidden by default) -->
+  <div id="screenMessage"
+       style="display:none; align-items:center; justify-content:center; height:100vh; text-align:center; padding:20px; font-size:1.5rem; background:#000; color:#fff;">
+    🚫 This game is optimized for mobile screen sizes.<br>
+    Please resize your window or open on a phone/tablet.
+  </div>
+
+  <!-- 🎮 Game wrapper -->
+  <div id="gameWrapper">
+    <div id="app">
+      <div id="mainMenu">
+        <div class="mainMenuCol1">
+          <div class="credits">
+            <h2>Music by Sharon Jeyakumar</h2>
+            <h2>Story by Tharun Chezhian</h2>
+          </div>
+        </div>
+        <div class="mainMenuCol2">
+          <div class="title">
+            <h1>The Re | union</h1>
+            <h2>That Went Exactly as Badly as Expected</h2>
+          </div>
+        </div>
+      </div>
+      <!-- Your game screen -->
+      <div id="gameScreen"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+  <script>
+    function checkScreenSize() {
+      const gameWrapper = document.getElementById("gameWrapper");
+      const screenMessage = document.getElementById("screenMessage");
+
+      if (window.innerWidth > 600) {
+        gameWrapper.style.display = "none";
+        screenMessage.style.display = "flex";
+      } else {
+        gameWrapper.style.display = "block";
+        screenMessage.style.display = "none";
+      }
+    }
+
+    window.addEventListener("load", checkScreenSize);
+    window.addEventListener("resize", checkScreenSize);
+  </script>
+</body>
+</html>
