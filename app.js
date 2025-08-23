@@ -78,8 +78,8 @@ document.body.addEventListener('click', function(e) {
   });
 
   function stopMenuTheme() {
+    mainMenuTheme.currentTime = 0;
   mainMenuTheme.pause();
-  mainMenuTheme.currentTime = 0;
 }
 
 const app = document.getElementById('app');
@@ -378,6 +378,7 @@ const scenes = {
             {text: `“Finally, an audience without cameras… I think.”`,profile:'vikaas'},
             {text: `Vishal R\nSubject: See your old batchmates!`,profile:'none'},
             {text: `“Amma, can I get Uber money for this?”`},
+            {text: `"Ok ma then i can't go there."`},
             {text: `Vishal Kumar\nSubject: It’s been a while… friends!`,profile:'none'},
             {text: `“I could skip… but Sofa will be there.”`},
             {text: `A faint smirk forms.`},
@@ -405,7 +406,7 @@ const scenes = {
             {text: `Order of Arrivals`},
             {text: `Sharvesh – walks in first, scanning for threats like he’s on duty. He thinks the “DJ” is a suspect.`},
             {text: `Sharon – carrying a Bible in one hand, He scans the crowd with a preacher’s smile.`},
-            {text: `"The Lord moves in mysterious ways… so do I,", he whispers`},
+            {text: `"The Lord moves in mysterious ways… so do I.", he whispers`},
             {text: `Sofiawari – peeks in, spots Simson nowhere yet, clutches her dupatta nervously.`},
             {text: `Tharun – steps in with his brand new adidas, slow motion, clearly trying to outshine his twin (who isn’t even there yet).`},
             {text: `Syed – drops off a suspiciously heavy duffel bag near the snacks table.`},

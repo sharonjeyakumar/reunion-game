@@ -47,8 +47,8 @@ h1{
 }
 h2{
     font-weight: 100;
-    font-size: 1rem;
-    line-height: 1.3rem;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
 }
 p{
     font-weight: 100;
@@ -319,7 +319,7 @@ p{
 .dialogueContainer{
     height: auto;
     align-self: flex-start;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
     /* border: 1px solid black; */
 }
 
@@ -329,7 +329,7 @@ p{
     justify-content: space-between;
     align-items: center;
     padding-top: 5px;
-    padding-bottom: 15px;
+    padding-bottom: 20px;
 }
 
 .choiceBtn{
