@@ -11,6 +11,8 @@ const choiceSound = new Audio(fxchoiceSound);
 const fxchoiceConfirm = "ost/choiceconfirm.mp3";
 const choiceConfirm = new Audio(fxchoiceConfirm);
 
+const ostbrothalvarshan = "ost/brothalvarshan.wav";
+const brothalvarshan = new Audio(fxchoiceConfirm);
 
 const fxhawk = "ost/hawk.mp3";
 const hawk = new Audio(fxchoiceConfirm);
@@ -412,7 +414,7 @@ const scenes = {
             {text: `Tharun – steps in with his brand new adidas, slow motion, clearly trying to outshine his twin (who isn’t even there yet).`},
             {text: `Syed – drops off a suspiciously heavy duffel bag near the snacks table.`},
             {text: `Varshan – flanked by two “assistants” from his “business,” starts networking instantly.`},
-            {text: `Yuvaneshar & 8– clearly mid-argument as they ente`},
+            {text: `Yuvaneshar & 8– clearly mid-argument as they enter`},
             {text: `Vishal Kumar – pretends to wave at “everyone,” as he thinks to himself has sofa arrived.`},
             {text: `Subish – wearing a doctor’s coat over party clothes, pockets clinking with contraband.`},
             {text: `Shri Ram & Sri Dhanush – arrive together but clearly not speaking.`},
@@ -553,18 +555,17 @@ const scenes = {
     text: [
         { text: "Hollow man panics, her eyes widen, her breath quickening as the tension in the room spikes." },
         { text: "She moves across the room quickly and leans over Tharun’s shoulder, her face close as she tries to grasp the situation." },
-        { text: "Syed watches silently from a distance, his eyes narrowing, sensing the growing unease between them." },
+        { text: "Syed watches silently from a distance, his eyes narrowing, sensing the growing unease between them.", music:'titanicpondati.wav'},
         { text: "Syed’s face twists with rage. Without warning, he lunges forward and throws a powerful punch at Tharun." },
         { text: "Thud!" },
         { text: "Tharun staggers back, clutching his jaw, shocked by the sudden attack." },
-        { text: "Syed (breathing heavily): \"En pondati kuda nee yenada kudumpo panra\"" },
+        { text: "Syed (breathing heavily): \"En pondati kuda nee yenada konji kullavitu eruka?\"" },
         { text: "Hollow man (screaming): \"Syed! stop it!\"" },
         { text: "Tharun (recovering, glaring): \"Ava vanthu hug pannathuku naa yenna da pannuven.\"" },
         { text: "Syed: \"nee ethuku d ivana hug panna. ithu evalo naala nadakuthu\"" },
         { text: "Tharun: \"Dei panic la pannita da\"" },
         { text: "Hollow man: \"No Naa panic la lam pannala. I always preferred the superior twin\"" },
-        { text: "Tension in the room spikes as others rush in to break the fight before it turns worse." },
-
+        { text: "Tension in the room spikes as others rush in to break the fight before it turns worse.", musicStop:'titanicpondati.wav'},
         { text: "Snake akka stands in the corner, her eyes sharp and filled with simmering jealousy as she watches hollow man lean over Tharun." },
         { text: "Snake akka (thinking bitterly): \"Tharun en kuda date pannitu, ipdi ennake cheat pannurane?\"" },
         { text: "She clenches her fists, memories flashing through her mind." },
@@ -827,7 +828,7 @@ const scenes = {
 
 varshan_investigation: {
  text: [
-     {text: "You decide to question Sri Varshan closely. Sri Varshan claims he didn’t say anything after the incident, but some report seeing him near the victim before the fight broke out."},
+     {text: "You decide to question Sri Varshan closely. Sri Varshan claims he didn’t say anything after the incident, but some report seeing him near the victim before the fight broke out.",music:'brothalvarshan.wav'},
      {text: "Tharun: Vera yaaru bro ivanta pesunathu"},
      {text: "Sri Varshan: Yaarum pesala bro"},
      {text: "Simson: Dei antha DJ pesitu irunthan da pandi ta"},
@@ -847,7 +848,7 @@ varshan_investigation: {
      {text: "Varshan: Theriyala da wrong number."},
      {text: "Sriram: Wrong Number ta yenda 1 minute pesiruka"},
      {text: "Varshan: Customer nu nenaichen da"},
-     {text: "You note down his statement, but still feel something is off."}
+     {text: "You note down his statement, but still feel something is off.",musicStop:'brothalvarshan.wav'}
  ],
  continue:[
      {next:"maharaja_investigation"}
