@@ -568,7 +568,7 @@ const scenes = {
         { text: "Snake akka stands in the corner, her eyes sharp and filled with simmering jealousy as she watches hollow man lean over Tharun." },
         { text: "Snake akka (thinking bitterly): \"Tharun en kuda date pannitu, ipdi ennake cheat pannurane?\"" },
         { text: "She clenches her fists, memories flashing through her mind." },
-        { text: "Snake akka (quietly, to herself): \"Ippo naan Perumal kooda married, aana en manasu eppaiyum Tharun-ku tha.\"" },
+        { text: "Snake akka (quietly, to herself): \"Ippo naan Thirupathi kooda married, aana en manasu eppaiyum Tharun-ku tha.\"" },
         { text: "Thirupathi stands beside her, noticing her distant gaze but says nothing." },
 
         { text: "Snake akka approaches Tharun, her steps hesitant but determined. Her voice trembles slightly as she tries to hold her composure." },
