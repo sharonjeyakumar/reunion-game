@@ -12,6 +12,10 @@ const fxchoiceConfirm = "ost/choiceconfirm.mp3";
 const choiceConfirm = new Audio(fxchoiceConfirm);
 
 
+const fxhawk = "ost/hawk.mp3";
+const hawk = new Audio(fxchoiceConfirm);
+
+
 
 let audioUnlocked = false;
 function unlockAndPlayFirstClick() {
@@ -630,7 +634,7 @@ const scenes = {
     text: [
         { text: `As tempers flare, the room descends into utter chaos—shouts echo, fists fly, and the air thickens with tension.` },
         { text: `People push and shove, their anger unleashed in a frenzy of violence.` },
-        { text: `Suddenly, cutting sharply through the cacophony, a piercing screech rends the air—an eerie, haunting sound that forces everyone to momentarily freeze.` },
+        { text: `Suddenly, cutting sharply through the cacophony, a piercing screech rends the air—an eerie, haunting sound that forces everyone to momentarily freeze.`, music: 'hawk.mp3'},
         { text: `From above, a massive hawk descends with terrifying grace.` },
         { text: `Nearly 2 feet tall, its wings spread wide—stretching over 4 feet—casting a vast shadow over the crowd.` },
         { text: `Its powerful talons reach out like iron claws, ready to seize its prey.` },
@@ -655,7 +659,7 @@ const scenes = {
 
    shoot_hawk: {
     text: [
-        { text: `Sharvesh pushes forward, eyes locked on the giant hawk circling above.` },
+        { text: `Sharvesh pushes forward, eyes locked on the giant hawk circling above.`, music: 'hawk.mp3'},
         { text: `In his hands — a battered hunting rifle, its barrel glinting under the harsh lights.` },
         { text: `The air seems to tighten, every heartbeat syncing to the slow, deliberate motion of him raising the weapon.` },
 
@@ -696,7 +700,7 @@ const scenes = {
         { text: `The twins launch their “spears” with all the fury of warriors avenging their king.` },
         { text: `The spear projectiles spin through the air in slow, cinematic arcs, as if the world itself is holding its breath.` },
 
-        { text: `They strike the hawk’s feathers with a faint *tink*… and bounce away, drifting lazily to the floor.` },
+        { text: `They strike the hawk’s feathers with a faint *tink*… and bounce away, drifting lazily to the floor.` , music: 'hawk.mp3'},
         { text: `Not a single feather is ruffled. The hawk doesn’t even blink.` },
 
         { text: `Gasps ripple through the crowd — not from fear, but from the sheer commitment these two pint-sized warriors display.` },
