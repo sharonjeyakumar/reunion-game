@@ -583,8 +583,8 @@ const scenes = {
         { text: 'Snake Akka: SMB la enna tha marry pannuvenu promise panniye athu poiya?'},
         { text: 'Tharun: Edi please shut up, ennora manatha vangatha'},
         { text: `Snake akka: illa da nan vanguve, avolo vai pesuniye da, Director agi Tarantino ku eppadi Uma Thurman oh athumari tharun ku snake akka nu lam sonniye da throgi.`},
-        { text: `Tharun: nan batman di what did you expect?`},
-        { text: `Snake akka ran away crying (just like every women whose heart is stolen by Tharun Chezhian).`}
+        { text: `Tharun: Nan Batman di what did you expect?`},
+        { text: `Snake akka ran away crying (just like every women whose heart is stolen by Tharun Chezhian AKA MTC).`}
     ],
     continue: [
             { next: "fight_breaks_out"}
@@ -875,7 +875,7 @@ varshan_investigation: {
         {text: "Sriram: Pandi number ra yenda baby nu save panni vachuruka?"},
         {text: "Maharaja looks away, guilt flooding his face."},
         {text: "Sharvesh (steps closer, eyes locked): Yenda daily avanta pesura, Maharaja?"},
-        {text: "Maharaja (hesitant, voice low): Neenga neikura maari illa da…"},
+        {text: "Maharaja (hesitant, voice low): Neenga nenaikura maari illa da…"},
         {text: "Subish (mocking tone): Appo “Baby” Ashika illaiya da? Baby, baby nu ivanta pesitu irunthiya?"},
         {text: "Syed (pointing): So nee tha Master Shifu va kill panna?"},
         {text: "Sharvesh: Apparam… Pandi yayum konruka?"},
@@ -884,7 +884,7 @@ varshan_investigation: {
         {text: "Maharaja (sighs, looking away): He… was more than a friend."},
         {text: "Sharvesh (leaning in, voice sharp): Ennada nadanthuchu? Tell me the full story."},
         {text: "Maharaja’s eyes glisten. He takes a deep breath, his voice shaking as he speaks."},
-        {text: "Maharaja: Naanum Pandi-yum college days la irundhe love pannom… aana avan appa ku athu pudikala. So, he acted like he loved Master Shifu. Marriage ku apparamum… adikadi meet pannipom."},
+        {text: "Maharaja: Naanum Pandi-yum college days la irundhe love pannom… aana avan appa ku athu therunjurum nu baiyanthan. So, he acted like he loved Master Shifu. Marriage ku apparamum… adikadi meet pannipom."},
         {text: "Maharaja’s hands clench as he continues."},
         {text: "Maharaja: Oru time… Master Shifu vitula illathapo."}
     ],
@@ -926,7 +926,7 @@ real_incident: {
         {text: "Pandi: Shifu, no—"},
         {text: "Master Shifu: (cutting him off) illa avangaluku kandipa therinje aganum. —"},
         {text: "Pandi takes a step forward, desperation creeping into his tone."},
-        {text: "Pandi: Shifu please di… enga appan nu ku thericha avalo tha di… please di. tire ra mulikiruvan di."},
+        {text: "Pandi: Shifu please di… enga appan nu ku thericha avalo tha di… please di. tire ra mulikiruvan kiruku paiya."},
         {text: "But Shifu’s voice only grows louder, sharper."},
         {text: "Master Shifu: Enna use pannitu… ippo—"},
         {text: "The heavy glass flower vase from the table is suddenly in Maharaja’s hands. His eyes are a storm of desperation and fear."},
