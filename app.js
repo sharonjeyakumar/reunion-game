@@ -570,17 +570,21 @@ const scenes = {
         { text: "She clenches her fists, memories flashing through her mind." },
         { text: "Snake akka (quietly, to herself): \"Ippo naan Thirupathi kooda married, aana en manasu eppaiyum Tharun-ku tha.\"" },
         { text: "Thirupathi stands beside her, noticing her distant gaze but says nothing." },
-
         { text: "Snake akka approaches Tharun, her steps hesitant but determined. Her voice trembles slightly as she tries to hold her composure." },
         { text: "Snake akka (quiet but intense): \"Tharun... Ivakudatha enna cheat panniya?\"" },
         { text: "Syed (interjecting): \"Neenga date pannigala? Yennaku apaiye theriyum da, ithu love-hate relationship-nu.\"" },
         { text: "Tharun (surprised, cautious): \"Snake, ithu apdi illa. Naan cheat pannala ivakuda.\"" },
         { text: "Snake akka (looking away, then back): \"How could you do this to me?\"" },
         { text: "Thirupathi (stepping forward): \"Atha naan sollanum di punda mavale. Yenna cheat pannita?\"" },
-        { text: "Snake akka (angry, furious): \"Atha nee sollatha! Fuck panna poralam, Yogert, Yogert-nu mourn pannura. Threesome Yogert kuda pannalam-nu sollura, thotta ipditha Yogert thoduvan-nu sollura!\"" },
+        { text: "Snake akka (angry, furious): \"Atha nee sollatha! Fuck panna poralam, Yogert, yogurt-nu mourn pannura. Threesome yogurt kuda pannalam-nu sollura, thotta ipditha yogurt thoduvan-nu sollura!\"" },
         { text: "Tharun (softly): \"Snake, this is complex. Let me explain.\"" },
         { text: "Syed (sharply): \"Otha, ennaku explanation kudu da!\"" },
-        { text: "Snake akka (hurt, voice cracking): \"Complex? Naan ippo thriupathi kooda married... aana en manasu unakku mattum thaan.\"" }
+        { text: "Snake akka (hurt, voice cracking): \"Complex? Naan ippo thriupathi kooda married... aana en manasu unakku mattum thaan.\"" },
+        { text: 'Snake Akka: SMB la enna tha marry pannuvenu promise panniye athu poiya?'},
+        { text: 'Tharun: Edi please shut up, ennora manatha vangatha'},
+        { text: `Snake akka: illa da nan vanguve, avolo vai pesuniye da, Director agi Tarantino ku eppadi Uma Thurman oh athumari tharun ku snake akka nu lam sonniye da throgi.`},
+        { text: `Tharun: nan batman di what did you expect?`},
+        { text: `Snake akka ran away crying (just like every women whose heart is stolen by Tharun Chezhian).`}
     ],
     continue: [
             { next: "fight_breaks_out"}
@@ -794,7 +798,7 @@ const scenes = {
         {text: "Simson: 'Yen da first tu avanta investigate panna solra'"},
         {text: "Sri Danush: 'Avan tha daily tvk kela nadakuratha pandi ta solluva. Ella plan naiyu sollirathu kuda paravala ana yenna nadathathu ne theriyama nadipan paaru.'"},
         {text: "Sharvesh: 'Neeye Tvk'la irunthu veliya vanthutu. Ava sollura'"},
-        {text: "Sriram: 'Avan yenda avaniye veliya yaara vaipan'"},
+        {text: "Sriram: 'Avan yenda avaniye veliyera vaipan'"},
         {text: "Sharvesh: 'Appo tha unkuda akmm la sera mudiyum'"},
         {text: "Sri Danush: 'Yeppa dei nantha da konne. Intha cuff fa potu kutitu po'"},
         {text: "Sharvesh: 'Cuff poda kita vantha gun na holster la irunthu yeduthu yennaiye soduva'"},
@@ -809,7 +813,7 @@ const scenes = {
         {text: "Tharun: 'Avan inga vanthathuku aaparam pesuningala bro.'"},
         {text: "Sri Varshan: 'Illa bro pesala.'"},
         {text: "Simson: 'Yaaru da first inga vantha?'"},
-        {text: "Syed: 'Nantha da hollow first te povom nu torch panni kutitu vantha.'"},
+        {text: "Syed: 'Nantha da hollow first te povom nu torture panni kutitu vantha.'"},
         {text: "Sri Varshan: 'Bro Maharaja tha ivanta inga pesitu irunthan.'"}
     ],
     choices: [
