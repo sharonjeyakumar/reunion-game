@@ -2,7 +2,7 @@ const ostmainMenu = "ost/mainmenu.mp3";
 const mainMenuTheme = new Audio(ostmainMenu);
 mainMenuTheme.loop = true;
 
-const fxclickSound = "ost/shutter-click.wav";
+const fxclickSound = "ost/click-sound.mp3";
 const clickSound = new Audio(fxclickSound);
 
 const fxchoiceSound = "ost/choicesound.mp3";
