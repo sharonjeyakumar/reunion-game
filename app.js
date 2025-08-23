@@ -495,7 +495,7 @@ const scenes = {
             { text: "Sriram (laughing): \"Unga appan Ramesh-ta thirudniya—\"" },
             { text: "Dhanush (cutting in): \"Illa mama, avan IV ku trekking poren. Forest la protection venum nu sollirupa… Apdiya pa, department la IV la kuptu porangala nu DSP yum nambirupan.\"" },
             { text: "Varshan joins in, grabbing Sharvesh’s shoulders and pinning him tighter so he can’t twist away." },
-            { text: "Varshan (grinning at Dhanush): \"Dei, time waste pannaama eduda punda!\"" },
+            { text: "Varshan (grinning at Dhanush): \"Dei, time waste pannama eduda punda!\"" },
             { text: "Sharvesh (struggling): \"Dei! Adhu government property da, loosu!\"" },
 
             { text: "Sri Dhanush yanks the pistol from Sharvesh’s holster with a flourish, then flicks it through the air toward Sriram." },
@@ -522,7 +522,6 @@ const scenes = {
             { text: "Dhanush: yenda arivu iruka da punda (points at Sri Varshan)" },
             { text: "Tharun: Super bro ungala vitu master shifu va kalyana pannathu nala avana sootutinga" },
             { text: "Sri Varshan: Brooooo apdilam illa" },
-            { text: "Tharun: Neenga master shifu va than bro kondrukanum" },
             { text: "Syed: Therinchite nadipa poduran paaru" },
             { text: "Dhanush: Varshan vai potu vai potu avana maariye pesuringale bro" },
             { text: "Tharun: dei epa enda enna gang bang panna varinga. Annaiya yenna achu" },
@@ -574,7 +573,7 @@ const scenes = {
 
         { text: "Snake akka approaches Tharun, her steps hesitant but determined. Her voice trembles slightly as she tries to hold her composure." },
         { text: "Snake akka (quiet but intense): \"Tharun... Ivakudatha enna cheat panniya?\"" },
-        { text: "Syed (interjecting): \"Neenga date pannigala? Yennaku apdi theriyum da, ithu love-hate relationship-nu.\"" },
+        { text: "Syed (interjecting): \"Neenga date pannigala? Yennaku apaiye theriyum da, ithu love-hate relationship-nu.\"" },
         { text: "Tharun (surprised, cautious): \"Snake, ithu apdi illa. Naan cheat pannala ivakuda.\"" },
         { text: "Snake akka (looking away, then back): \"How could you do this to me?\"" },
         { text: "Thirupathi (stepping forward): \"Atha naan sollanum di punda mavale. Yenna cheat pannita?\"" },
@@ -763,8 +762,8 @@ const scenes = {
         {text: `Vikaas (decisive): "Indha info wisely use pannanum. Ithaan real truth kandupidikka key."`}
     ],
     choices: [
-        {text: "Deeper Investigation", next: "deeper_investigation"},
         {text: "investigate the Guest", next: "investigate_guests"},
+        {text: "Deeper Investigation", next: "deeper_investigation"},
     ]
 },
 
@@ -791,7 +790,7 @@ const scenes = {
 
    investigate_guests: {
     text: [
-        {text: "Narrator: 'You scan the hall. Conversations are tense, eyes dart around, and secrets hang in the air.'"},
+        {text: "Narrator: 'You scan the hall. Conversations are tense, eyes dart around, and secrets hang in the air.'", musicStop:'rainbowstar.wav'},
         {text: "Sharvesh: 'Seri da ippo yaruta investigate panna start panna'"},
         {text: "Sri Danush: 'Un paiyan ta arambi'"},
         {text: "Sharvesh: 'Yenna nu da keka. Nee than pannirupa nu ennaku doubt ta iruku'"},
