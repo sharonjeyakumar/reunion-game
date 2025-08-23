@@ -618,15 +618,13 @@ const scenes = {
         { text: `Sri Danush: "Marupadi marupadi blow job kudukatha da. Yen ivan," (points sharply at Sharvesh) "konurka kudatha. Ivan GF ta thana thiruduna."` },
         { text: `Sharvesh: "Dei punda, ava-la naa love pannave illa da."` },
         { text: `Syed: "Class la pudicha ponu yaaru nu ketathuku Master Shifu nu sonnathu nee thanda."` },
-        { text: `Sharvesh: "Dei, athu Vishal ketanu sonne da. Yen avan konnuruka kudatha Soba kaga?"` },
+        { text: `Sharvesh: "Dei, athu Vishal ketanu sonne da. Yen avan konnuruka kudatha Sofa kaga?"` },
         { text: `Narration: Suddenly, everyone starts pointing fingers at each other, voices rising into a deafening roar. Fingers jab, accusations fly like daggers. The tension snaps—shoves and punches erupt as the crowd descends into a violent brawl, chaos swallowing the room whole.` }
     ],
     continue: [
         {next: "fight_breaks_out"}
     ]
 },
-
-
    fight_breaks_out: {
     text: [
         { text: `As tempers flare, the room descends into utter chaos—shouts echo, fists fly, and the air thickens with tension.` },
@@ -725,7 +723,7 @@ const scenes = {
         {text: `Sofiawari (mocking): "Appo enkuda irunthathum poi ya Simson."`},
         {text: `Simson (frustrated): "Dei yennada, alukualu ennanomo solluringa. unkuda epoo di irunthen. My heart is only for og."`},
         {text: `Sharon (swallowing hard): "Enna sollurathu nu theriyala, ana ennala sollama irukavum mudiyala."`},
-        {text: `Sharon: "Apo college la en kaipudichu kutitu poniyee atha maranthutiya? Unna impress panna num website create panniyeye atha maranthutiya? Unna kaga college nai maari alanjene atha maranthutiya?"`},
+        {text: `Sharon: "Apo college la en kaipudichu kutitu poniyee atha maranthutiya? Unna impress panna XXXL shirt poduvane atha maranthutiya? Unna kaga college la nai maari alanjene atha maranthutiya?"`},
         {text: `Simson: "Ithalam eppo da nadanthuchu?"`},
         {text: `Sofiawari: "Sollu Simson, unakaga fake id lam create pannene athalam poi ya. Sofia Sofia nu solluviye. En reels ku heart la potiye. Kerala IT job vitu tu un college professor ra serthathu yethuku ellam unnakaga tha, unna love pannurathu nala tha."`},
         {text: `Simson: "Aiyo please enna love torture pannathiga."`},
