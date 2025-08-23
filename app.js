@@ -431,7 +431,7 @@ const scenes = {
     zuru_twins_arrives: {
         text: [
             { text: "You open the lock."},
-            { text: `The double doors slam open so hard they rattle on their hinges.`,music:'sulleraiya.wav'},
+            { text: `The double doors slam open so hard they rattle on their hinges.`,music:'sulleraiya.mp3'},
             { text: `Deep drumbeats echoes across the hall — BOOM.`},
             { text: `Two midgets in glittery red vests march in.`},
             { text: `One bangs tiny golden drums in a pounding rhythm`},
@@ -455,7 +455,7 @@ const scenes = {
             { text: `A beat of silence.`},
             { text: `Vel grips the mic.`},
             { text: `He looks over the crowd, smirks, and says:`},
-            { text: `"Tonight… the kingdom of Sulerumbu extends to PSNA Hall! All who kneel before the ant shall rise as legends!"`, musicStop: "sulleraiya.wav"},
+            { text: `"Tonight… the kingdom of Sulerumbu extends to PSNA Hall! All who kneel before the ant shall rise as legends!"`, musicStop: "sulleraiya.mp3"},
             { text: `For a split second, there’s stillness.`},
         ],
         choices: [
