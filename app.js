@@ -530,7 +530,7 @@ const scenes = {
             { text: "Sri Dhanush: Already avanga la relationship irukanga. family ya murder pannirukanga" },
             { text: "Sri Varshan: Unga appana maari illa seriya" },
             { text: "Syed: Avaru appa kudaiyum irukiya da varsha. Inno DILF fantasy ya vidalaiya da" },
-            { text: "Sri Varshan: Unga appa rizwan maari illa" },
+            { text: "Sri Varshan: Un appan maari illa" },
 
             { text: "Subish (determined): \"Wait, da! I need to check something.\"" },
             { text: "(Subish unbuttons Pandi’s shirt slowly, revealing multiple stab wounds.)" },
@@ -685,16 +685,12 @@ const scenes = {
     text: [
         { text: `The midget's midget — the Zuru Twins, Vel's guardians — plant their bare feet firmly into the dirt, eyes blazing like coals in a fire.` },
         { text: `Their chests rise and fall rapidly, the ochre paint smeared across their bodies streaked with sweat.` },
-
         { text: `Zuru #1 (bellowing to the heavens): "Thara! Thara zul’kai! Ner’vatha surra kra’tham!"` },
         { text: `Zuru #2 (slapping the ground twice before raising his spear): "Kroth! Vel-kai zul’kai! Sulleraiya kor’mak torra!"` },
-
         { text: `Without breaking eye contact with the giant hawk, they raise their spears — weapons forged in tradition, carved from sacred wood, and blessed by their tribe’s sky spirits.` },
         { text: `To them, these are blades of destiny. To everyone else, they are barely the size of toothpicks.` },
-
         { text: `The twins launch their “spears” with all the fury of warriors avenging their king.` },
         { text: `The spear projectiles spin through the air in slow, cinematic arcs, as if the world itself is holding its breath.` },
-
         { text: `They strike the hawk’s feathers with a faint *tink*… and bounce away, drifting lazily to the floor.` , music: 'hawk.mp3'},
         { text: `Not a single feather is ruffled. The hawk doesn’t even blink.` },
 
@@ -926,7 +922,7 @@ real_incident: {
         {text: "Pandi: Shifu, no—"},
         {text: "Master Shifu: (cutting him off) illa avangaluku kandipa therinje aganum. —"},
         {text: "Pandi takes a step forward, desperation creeping into his tone."},
-        {text: "Pandi: Shifu please di… enga appan babu ku thericha avalo tha di… please di. tire ra mulikiruvan di kiruku paya."},
+        {text: "Pandi: Shifu please di… enga appan nu ku thericha avalo tha di… please di. tire ra mulikiruvan di."},
         {text: "But Shifu’s voice only grows louder, sharper."},
         {text: "Master Shifu: Enna use pannitu… ippo—"},
         {text: "The heavy glass flower vase from the table is suddenly in Maharaja’s hands. His eyes are a storm of desperation and fear."},
